@@ -1,0 +1,38 @@
+.bg-img1 {
+  height: 600px;
+  background-color: #000;
+  background-size: cover;
+  background-image: url(https://images.unsplash.com/photo-1682687221175-fd40bbafe6ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+}
+
+.bg-img2 {
+  height: 600px;
+  background-color: #000;
+  background-size: cover;
+  background-image: url(https://images.unsplash.com/photo-1682687220198-88e9bdea9931?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+}
+
+.bg-img3 {
+  height: 600px;
+  background-color: #000;
+  background-size: cover;
+  background-image: url(https://images.unsplash.com/photo-1682685795557-976f03aca7b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80);
+}
+
+.carousel-inner {
+  position: relative;
+}
+.carousel-indicator {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  top: 570px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.carousel-indicator .active {
+  padding: 2px 20px;
+  border: none;
+  z-index: 0;
+}
